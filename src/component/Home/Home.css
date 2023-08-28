@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .status{
+        padding: 2px;
+    }
+    .video{
+        width: 80vw;
+        height: 80vh;
+    }
+    .video1{
+        display: none;
+        
+    }
+}
+
+.action button{
+    margin: 10px;
+    background-color: blue;
+    border: 0.2px solid blue;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.btn-container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    .logoutbtn{
+    
+        
+        background-color: blue;
+        border: 0.2px solid blue;
+        padding: 10px 20px;
+        color: white;
+        margin-bottom: 10px;
+    
+    }
+}
